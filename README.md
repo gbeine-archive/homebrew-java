@@ -14,3 +14,8 @@ In this case Maven is quite a hard choice to manage these libraries.
     -   3rd party tools need the MySQL Connector/J to connect to a MySQL database
 *   **postgresql-java**
     -   3rd party tools need the PostgreSQL JDBC driver to connect to a PostgreSQL database
+
+## Install ##
+
+*   `brew tap gbeine/homebrew-java`
+*   `brew install mysql-connector-java`
