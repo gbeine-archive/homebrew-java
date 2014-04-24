@@ -2,7 +2,7 @@ require "formula"
 
 class Derby < Formula
   homepage "http://db.apache.org/derby/"
-  url "http://mirror.serversupportforum.de/apache//db/derby/db-derby-10.10.1.1/db-derby-10.10.1.1-bin.tar.gz"
+  url "http://mirror.serversupportforum.de/apache//db/derby/db-derby-10.10.2.0/db-derby-10.10.2.0-bin.tar.gz"
   sha1 "62fbfa2ea997142b29a123322d96c221763e50fc"
 
   option "with-examples", "Install examples"
