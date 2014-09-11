@@ -2,8 +2,8 @@ require "formula"
 
 class Derby < Formula
   homepage "http://db.apache.org/derby/"
-  url "http://mirror.serversupportforum.de/apache//db/derby/db-derby-10.10.2.0/db-derby-10.10.2.0-bin.tar.gz"
-  sha1 "3fdccedffc7ed9d69350563670833f418e90cecc"
+  url "http://mirror.serversupportforum.de/apache/db/derby/db-derby-10.11.1.1/db-derby-10.11.1.1-bin.tar.gz"
+  sha1 "aa198b8795bb8a70fb7597a22d4331ade463b34c"
 
   option "with-examples", "Install examples"
   option "with-docs", "Install documentation"
@@ -16,7 +16,7 @@ class Derby < Formula
     libexec.install Dir['bin', 'lib']
     (libexec/'examples').install Dir['demo/*'] if build.with? 'examples'
     doc.install Dir['docs/*', 'javadoc'] if build.with? 'docs'
-    
+
     bin.install_symlink "#{libexec}/bin/NetworkServerControl" => "NetworkServerControl"
     bin.install_symlink "#{libexec}/bin/dblook" => "dblook"
     bin.install_symlink "#{libexec}/bin/ij" => "ij"
