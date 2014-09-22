@@ -10,12 +10,18 @@ It is also possible to create software packages including all dependencies with 
 But there are a lot of software packages available that may use some libraries.
 In this case Maven is quite a hard choice to manage these libraries.
 
-*   **mysql-connector-java**
-    -   3rd party tools need the MySQL Connector/J to connect to a MySQL database
-*   **postgresql-java**
-    -   3rd party tools need the PostgreSQL JDBC driver to connect to a PostgreSQL database
+* **derby**
+ - Apache Derby database
+* **hsqldb**
+ - HSQL database
+* **mysql-connector-java**
+ - The MySQL Connector/J to connect to a MySQL database
+* **postgresql-java**
+ - The PostgreSQL JDBC driver to connect to a PostgreSQL database
+* **sqlite-jdbc **
+ - A JDBC driver for SQLite databases
 
 ## Install ##
 
-*   `brew tap gbeine/homebrew-java`
-*   `brew install mysql-connector-java`
+* `brew tap gbeine/homebrew-java`
+* `brew install mysql-connector-java`
