@@ -3,7 +3,7 @@ require "formula"
 class Derby < Formula
   homepage "http://db.apache.org/derby/"
   url "http://mirror.serversupportforum.de/apache/db/derby/db-derby-10.11.1.1/db-derby-10.11.1.1-bin.tar.gz"
-  sha1 "aa198b8795bb8a70fb7597a22d4331ade463b34c"
+  sha256 "68e06b5e859282b6bd7cfc1a801d1bf855a589515e14b5f3e8ea732d76c3fd34"
 
   option "with-examples", "Install examples"
   option "with-docs", "Install documentation"
