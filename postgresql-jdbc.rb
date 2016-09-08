@@ -7,18 +7,18 @@ class PostgresqlJdbc < Formula
   version "9.3-1103"
 
   resource "jdbc4" do
-    url "https://jdbc.postgresql.org/download/postgresql-9.4.1208.jre6.jar"
-    sha256 "8ddfcddab1251720ad9c97c35ba93da4a0f113fae2350721c598bf1f409dfc5e"
+    url "https://jdbc.postgresql.org/download/postgresql-9.4.1210.jre6.jar"
+    sha256 "e058415f473b7c7e2ca614d90f2844f4c41ee899b2391c29fffa50c4c806caac"
   end
 
   resource "jdbc41" do
-    url "https://jdbc.postgresql.org/download/postgresql-9.4.1208.jre7.jar"
-    sha256 "24e62cf67ef1f6f6df07465d7998cc02c1ecacdfe5c578d0bf11e9f01e931e25"
+    url "https://jdbc.postgresql.org/download/postgresql-9.4.1210.jre7.jar"
+    sha256 "a215e490ad9e2625bf271d28838a3ff3e901d910b90b5fcdbc0a9ffe432fcfe3"
   end
 
   resource "jdbc42" do
-    url "https://jdbc.postgresql.org/download/postgresql-9.4.1208.jar"
-    sha256 "51e58c2976719fcf8be7bc37cd3fd8a7dc4759d8a77d1b237d685a3c07c60ab9"
+    url "https://jdbc.postgresql.org/download/postgresql-9.4.1210.jar"
+    sha256 "fb9eeaa11f765f8adfddebc173f3e76a2f6e3d0a51ebf1d1e0e7becd04505b84"
   end
 
   option "with-jdbc4", "Install JDBC 4.0 support"
