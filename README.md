@@ -18,7 +18,7 @@ In this case Maven is quite a hard choice to manage these libraries.
  - The MySQL Connector/J to connect to a MySQL database
 * **postgresql-jdbc**
  - The PostgreSQL JDBC driver to connect to a PostgreSQL database
-* **sqlite-jdbc **
+* **sqlite-jdbc**
  - A JDBC driver for SQLite databases
 
 ## Install ##
