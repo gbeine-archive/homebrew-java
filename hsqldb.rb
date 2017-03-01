@@ -12,5 +12,4 @@ class Hsqldb < Formula
     libexec.install Dir["hsqldb/lib/*.jar"]
     doc.install Dir["hsqldb/doc/*"] if build.with? "docs"
   end
-
 end

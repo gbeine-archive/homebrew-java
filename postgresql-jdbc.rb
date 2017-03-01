@@ -1,4 +1,4 @@
-require 'formula'
+require "formula"
 
 class PostgresqlJdbc < Formula
   homepage "http://jdbc.postgresql.org/about/about.html"

@@ -1,4 +1,4 @@
-require 'formula'
+require "formula"
 
 class SqliteJdbc < Formula
   homepage "https://bitbucket.org/xerial/sqlite-jdbc/"
@@ -8,5 +8,4 @@ class SqliteJdbc < Formula
   def install
     libexec.install Dir["*.jar"]
   end
-
 end
