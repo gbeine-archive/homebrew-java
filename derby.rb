@@ -10,12 +10,12 @@ class Derby < Formula
 
   def install
     # Remove Windows scripts
-    rm_rf Dir['bin/*.bat']
+    rm_rf Dir["bin/*.bat"]
 
     prefix.install_metafiles
-    libexec.install Dir['bin', 'lib']
-    (libexec/'examples').install Dir['demo/*'] if build.with? 'examples'
-    doc.install Dir['docs/*', 'javadoc'] if build.with? 'docs'
+    libexec.install Dir["bin", "lib"]
+    (libexec/"examples").install Dir["demo/*"] if build.with? "examples"
+    doc.install Dir["docs/*", "javadoc"] if build.with? "docs"
 
     bin.install_symlink "#{libexec}/bin/NetworkServerControl" => "NetworkServerControl"
     bin.install_symlink "#{libexec}/bin/dblook" => "dblook"
@@ -27,5 +27,4 @@ class Derby < Formula
     bin.install_symlink "#{libexec}/bin/stopNetworkServer" => "stopNetworkServer"
     bin.install_symlink "#{libexec}/bin/sysinfo" => "sysinfo"
   end
-
 end

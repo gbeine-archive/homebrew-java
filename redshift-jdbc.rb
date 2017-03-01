@@ -1,4 +1,4 @@
-require 'formula'
+require "formula"
 
 class RedshiftJdbc < Formula
   homepage "https://docs.aws.amazon.com/redshift/latest/mgmt/configure-jdbc-connection.html"

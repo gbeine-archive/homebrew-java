@@ -1,4 +1,4 @@
-require 'formula'
+require "formula"
 
 class MysqlConnectorJava < Formula
   homepage "http://dev.mysql.com/downloads/connector/j/"
@@ -11,5 +11,4 @@ class MysqlConnectorJava < Formula
     libexec.install Dir["*.jar"]
     doc.install Dir["docs/*"]
   end
-
 end
