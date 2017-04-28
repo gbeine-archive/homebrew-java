@@ -1,24 +1,23 @@
-require 'formula'
+require "formula"
 
 class PostgresqlJdbc < Formula
   homepage "http://jdbc.postgresql.org/about/about.html"
   url "https://jdbc.postgresql.org/download/postgresql-9.3-1103.jdbc3.jar"
   sha256 "d41611fc87b1b6f263fa4c44ba33d78517b364d3c0e69b2db50fadc62b529cbd"
-  version "9.3-1103"
 
   resource "jdbc4" do
-    url "https://jdbc.postgresql.org/download/postgresql-9.4.1210.jre6.jar"
-    sha256 "e058415f473b7c7e2ca614d90f2844f4c41ee899b2391c29fffa50c4c806caac"
+    url "https://jdbc.postgresql.org/download/postgresql-42.0.0.jre6.jar"
+    sha256 "827e8ed8607724656375a02dd1fc4fba6a3d3150e064fc45ba47e85e0419fafa"
   end
 
   resource "jdbc41" do
-    url "https://jdbc.postgresql.org/download/postgresql-9.4.1210.jre7.jar"
-    sha256 "a215e490ad9e2625bf271d28838a3ff3e901d910b90b5fcdbc0a9ffe432fcfe3"
+    url "https://jdbc.postgresql.org/download/postgresql-42.0.0.jre7.jar"
+    sha256 "3bc916fcce8413b8d4f88be1e413edd564329051f0ffd3ea4b9bc98709604acf"
   end
 
   resource "jdbc42" do
-    url "https://jdbc.postgresql.org/download/postgresql-9.4.1210.jar"
-    sha256 "fb9eeaa11f765f8adfddebc173f3e76a2f6e3d0a51ebf1d1e0e7becd04505b84"
+    url "https://jdbc.postgresql.org/download/postgresql-42.0.0.jar"
+    sha256 "3bec21d1677f6cfce3e49d3578d4c84365264841753941197edf50363de28798"
   end
 
   option "with-jdbc4", "Install JDBC 4.0 support"
