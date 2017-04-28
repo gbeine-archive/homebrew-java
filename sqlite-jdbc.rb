@@ -1,12 +1,11 @@
-require 'formula'
+require "formula"
 
 class SqliteJdbc < Formula
   homepage "https://bitbucket.org/xerial/sqlite-jdbc/"
-  url "https://bitbucket.org/xerial/sqlite-jdbc/downloads/sqlite-jdbc-3.7.2.jar"
-  sha256 "266a3e21ca1d021aeb3ae8bf23ac8f1a03ffe86000ae7ae8f245c193c24a0fa0"
+  url "https://bitbucket.org/xerial/sqlite-jdbc/downloads/sqlite-jdbc-3.16.1.jar"
+  sha256 "211a0cb1694e53b7a120034ee33bd7b719bc7d0f5b619af2be26f2e5fb66e763"
 
   def install
     libexec.install Dir["*.jar"]
   end
-
 end
