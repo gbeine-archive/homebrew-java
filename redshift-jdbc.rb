@@ -1,10 +1,10 @@
-require 'formula'
+require "formula"
 
 class RedshiftJdbc < Formula
   homepage "https://docs.aws.amazon.com/redshift/latest/mgmt/configure-jdbc-connection.html"
   version "1.1.17.1017"
   url "https://s3.amazonaws.com/redshift-downloads/drivers/RedshiftJDBC4-#{version}.jar"
-  sha256 "e7ee6d2557829038e5ade91c9b909122c8aff4daf2ebdbb375602a764abc69ec"
+  sha256 "fb4243545515d4edf3f0869500209950817f6bd88bb7c483fcf8efbe44c8bd10"
 
   resource "jdbc41" do
     url "https://s3.amazonaws.com/redshift-downloads/drivers/RedshiftJDBC41-#{version}.jar"
