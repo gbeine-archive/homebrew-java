@@ -2,8 +2,9 @@ require "formula"
 
 class Hsqldb < Formula
   homepage "http://hsqldb.org/"
-  url "https://downloads.sourceforge.net/project/hsqldb/hsqldb/hsqldb_2_3/hsqldb-2.3.2.zip"
-  sha256 "573082ab3f1c8f02c1f496b9aae15b74f1b5aedf3812ef300e90ead3047e5fb0"
+  version="2.4.0"
+  url "https://downloads.sourceforge.net/project/hsqldb/hsqldb/hsqldb_2_4/hsqldb-#{version}.zip"
+  sha256 "1c99d43fbdd87b22fb8a788d70af4042eeb8da9314886103b38ce71cffb13f2d"
 
   option "with-docs", "Install documentation"
 
@@ -12,5 +13,4 @@ class Hsqldb < Formula
     libexec.install Dir["hsqldb/lib/*.jar"]
     doc.install Dir["hsqldb/doc/*"] if build.with? "docs"
   end
-
 end
